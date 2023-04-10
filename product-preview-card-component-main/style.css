@@ -1,0 +1,99 @@
+
+
+:root{
+    --aligt-text: center;
+    --padding: 10px ;
+    --font: 'Hanken Grotesk';
+    --color: hsl(228, 12%, 48%);
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body{
+    padding-top: 95px;
+    padding-left: 16%;
+    height: 100vh;
+    background-color:hsl(32, 56%, 64%) ;
+    margin: 0;
+
+}
+
+.img-size{
+    border-top-right-radius:30px ;
+    border-top-left-radius: 30px;
+    font-size: large;
+    height: 15em;
+    width: 100%;
+}
+
+.main-card{
+    /* padding: 20px;    */
+    border-top-right-radius:30px ;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius:30px ;
+    border-bottom-left-radius: 30px;
+    background-color:white ;
+    width: 15.6em;
+    height: 98%;
+    /* padding-bottom: 20px; */
+    text-align: center;
+}
+.parr-size{
+    color: var(--color);
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    
+}
+.name-product{
+    font-weight: 1000;
+    text-align: left;
+    font-family: 'Fraunces', serif;
+}
+.descr{
+    color: var(--color);
+    font-family: var(--font);
+    text-align: left;
+    
+}
+button{
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 10px;
+    width:150px;
+    height: 30px;
+}
+.box-price{
+    display: flex;
+    justify-content: left;
+}
+.box-price .price1{
+    padding: 10px;
+    font-size: 200%;
+    font-weight: 700;
+    /* font-family: ; */
+    color: hsl(158, 36%, 37%);
+    
+}
+.box-price .price2{
+    color: var(--color);
+    padding: inherit;
+    text-decoration: line-through;
+    display: flex;
+    align-items: center;
+}
+button{
+    color: white;
+    /* font-family:'Hanken Grotesk' ; */
+    font-family: 'Montserrat', sans-serif;
+}
